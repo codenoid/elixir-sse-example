@@ -1,6 +1,11 @@
 # Server Sent Events Example
 
+Points : 
 
+1. Start GenServer https://github.com/codenoid/elixir-sse-example/blob/ab1721087029940f5be3dc96c664535c59a07b62/lib/sse_example/application.ex#L17
+2. REST API HANDLER https://github.com/codenoid/elixir-sse-example/blob/ab1721087029940f5be3dc96c664535c59a07b62/lib/sse_example_web/controllers/page_controller.ex#L12
+3. return some data from database, etc from https://github.com/codenoid/elixir-sse-example/blob/ab1721087029940f5be3dc96c664535c59a07b62/lib/sse_example_web/helpers/ticker.ex#L40
+4. new data with automatically published to client (if point 2 only return static data, the data will not sent to client)
 
 To start your Phoenix server:
 
